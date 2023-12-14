@@ -6,9 +6,7 @@ const MainLinks = (props) => {
 
   return (
     <div className="MainLinks">
-      <h3>{titulo}</h3>
-      {/* Use o componente Link para navegação interna */}
-      <Link to={link}>Ir para {titulo}</Link>
+      <Link to={link}> <h3>{titulo} </h3></Link>
     </div>
   );
 };

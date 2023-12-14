@@ -2,9 +2,13 @@ import React from "react";
 import Card from "../components/MainPageLinkCards";
 
 const Links = [
-  { titulo: "React Basics", link: "https://exemplo.com/react-basics" },
+  { titulo: "curriculo", link: "https://gabrielribeiropedroso.com.br" },
   {
-    titulo: "JavaScript Avançado",
+    titulo: "FrontEnd (em breve)",
+    link: "https://exemplo.com/javascript-avancado",
+  },
+  {
+    titulo: "Backend (em breve)",
     link: "https://exemplo.com/javascript-avancado",
   },
 ];
