@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+$PrimaryColor: red;
+$SecondaryColor: blue;
+$DetailsColor: green;
+
+.LinkBox{
+  font-size: xx-large;
+  color: $PrimaryColor;
+}

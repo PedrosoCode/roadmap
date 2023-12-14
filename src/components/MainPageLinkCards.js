@@ -5,7 +5,7 @@ const MainLinks = (props) => {
   const { titulo, link } = props;
 
   return (
-    <div className="MainLinks">
+    <div className="LinkBox">
       <Link to={link}> <h3>{titulo} </h3></Link>
     </div>
   );
