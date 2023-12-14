@@ -1,11 +1,12 @@
 import React from "react";
-import Card from "../components/MainPageLinkCards";
+import { Link } from "react-router-dom";
+import MyLinks from "../components/MainPageLinkCards";
 
 const Links = [
   { titulo: "curriculo", link: "https://gabrielribeiropedroso.com.br" },
   {
     titulo: "FrontEnd (em breve)",
-    link: "https://exemplo.com/javascript-avancado",
+    link: "./Frontend",
   },
   {
     titulo: "Backend (em breve)",
@@ -24,7 +25,7 @@ function Home() {
       <div>
         {/* Mapeie os dados e renderize os cartões com base nas props */}
         {Links.map((dados, index) => (
-          <Card key={index} {...dados} />
+          <MyLinks key={index} {...dados} />
         ))}
       </div>
     </div>
